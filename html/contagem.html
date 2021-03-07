@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contagem.css">
-    <title>Age Checker</title>
+    <title>Count</title>
 </head>
 
 <body>
@@ -14,19 +14,11 @@
         <h1>Let's count!</h1>
     </header>
     <section>
-        <div>
-            <p>Begin:
-                <input type="number" name="txtbegin" id="txtbegin min="0">
-            </p>
-            <p>End:
-                <input type="number" name="txtend" id="txtend" min="0">
-            </p>
-            <p>Range:
-                <input type="number" name="txtrange" id="txtrange" min="0">
-            </p>
-            <p>
-                <input type="button" value="Count" onclick="verify()">
-            </p>
+        <div id="dados">
+            <p>Begin: <input type="number" name="txtbegin" id="txtbegin"></p>
+            <p>End: <input type="number" name="txtend" id="txtend"></p>
+            <p>Range: <input type="number" name="txtrange" id="txtrange"></p>
+            <p><input type="button" value="Count" onclick="count()"></p>
         </div>
         <div id="res">
             Preparing the count...
